@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Shopping List</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+	</head>
+	<body>
+
+		<div id="container">
+		<div id="header">
+			GRANT CHIRPUS CONVENIENCE STORE <br> where your convenience is our business<br>
+
+		</div>
+		</div>
+		
+		<h1>Shopping List:</h1>
+		
+		<h2>Available Items:</h2>
+		<ul id="AvailableItems">
+			<li> Shampoo ($3.00) <button type="button" id="AddMilk" class="AddToCartButton" onclick="addItem('0')">Add to cart</button></li>
+			<li> Conditioner ($3.00) <button type="button" id="AddEggs" class="AddToCartButton" onclick="addItem('1')">Add to cart</button> </li>
+			<li> Body Wash ($2.50) <button type="button" id="AddCoffee" class="AddToCartButton" onclick="addItem('2')">Add to cart</button></li>
+			<li> Toothpaste ($3.50) <button type="button" id="AddSalad" class="AddToCartButton" onclick="addItem('3')">Add to cart</button></li>
+			<li> Mouthwash ($2.75) <button type="button" id="AddCoffee" class="AddToCartButton" onclick="addItem('2')">Add to cart</button></li>
+			<li> Floss ($1.25) <button type="button" id="AddSalad" class="AddToCartButton" onclick="addItem('3')">Add to cart</button></li>
+		</ul>
+		
+		<h2>Items in Cart:</h2>
+		<button type="button" id="ClearCartButton" onclick="clearCart()">Clear Cart</button>
+		<ul id="shoppingCart">
+			<li>No items currently in cart!</li>
+		</ul>
+		<h3 id="total">Total: $0.00</h3>
+
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+			  
+		<script src="script.js"></script>
+	</body>
+</html>

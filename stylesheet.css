@@ -1,0 +1,35 @@
+body{
+	background: radial-gradient(circle, #ffe375, black);
+	font-family: Verdana;
+}
+
+h1{
+	font-size: 25pt;
+}
+
+#total {
+	font-size: 10pt;
+	
+}
+
+
+#header {
+	top: 0px;
+	left: 0px;
+	position: fixed;
+	color: #ffe375;
+	background-color: black;
+	height: 70px;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+	display: block;
+}
+
+#AvailableItems{
+	list-style: none;
+}
+
+#shoppingCart {
+	list-style: none;
+}
